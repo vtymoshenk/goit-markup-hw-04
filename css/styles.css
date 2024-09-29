@@ -113,6 +113,7 @@ img {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
@@ -121,8 +122,18 @@ img {
   position: relative;
   color: #404bbf;
 }
-.menu-link.current:hover::after,
+/* .menu-link.current:hover::after,
 .menu-link.current:focus::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #404bbf;
+  border-radius: 2px;
+} */
+.menu-link.current::after {
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -155,16 +166,7 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
-/* ::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-} */
+
 /* #endregion Header */
 
 /* #region Hero */
@@ -212,7 +214,7 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   border: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
