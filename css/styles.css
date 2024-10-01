@@ -162,7 +162,7 @@ img {
 /* #region Hero */
 .hero {
   height: 600px;
-  /* max-width: 1440px; */
+  max-width: 1440px;
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -426,11 +426,11 @@ img {
   color: #f4f4fd;
   margin-top: 16px;
   width: 264px;
-  margin-bottom: 16px;
 }
 .footer-text-change {
   color: #ffffff;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 .footer-div {
   color: #f4f4fd;
@@ -460,7 +460,7 @@ img {
 
 .social-links-link-footer:hover,
 .social-links-link-footer:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 /* #endregion Footer */
