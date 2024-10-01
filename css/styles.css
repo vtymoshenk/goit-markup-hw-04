@@ -58,6 +58,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 16px;
 }
 address {
   font-style: normal;
@@ -430,11 +431,11 @@ img {
 .footer-text-change {
   color: #ffffff;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 .footer-div {
   color: #f4f4fd;
   margin-right: 120px;
-  margin-bottom: 16px;
 }
 .footer-conteiner {
   display: flex;
